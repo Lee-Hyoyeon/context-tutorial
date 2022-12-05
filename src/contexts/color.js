@@ -21,10 +21,7 @@ const ColorProvider = ({ children }) => {
     );
 };
 
-// const ColorConsumer = ColorContext.Consumer과 같은 의미
-const { Consumer: ColorConsumer } = ColorContext;
-
 // ColorProvider와 ColorConsumer 내보내기
-export { ColorProvider, ColorConsumer };
+export { ColorProvider };
 
 export default ColorContext;
