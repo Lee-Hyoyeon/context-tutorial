@@ -21,7 +21,7 @@ const ColorProvider = ({ children }) => {
     );
 };
 
-// ColorProvider와 ColorConsumer 내보내기
+// ColorProvider 내보내기
 export { ColorProvider };
 
 export default ColorContext;
